@@ -120,8 +120,8 @@ btn.addEventListener('click', ()=>{
 
     
 
-    let x = Math.floor(Math.random()*100)
-    let y = Math.floor(Math.random()*100)
+    let x = Math.floor(Math.random()*quotes.length)
+    let y = Math.floor(Math.random()*quotes.length)
     let r = Math.floor(Math.random()*360)
     let c1 = Math.floor(Math.random()*256)
     let c2 = Math.floor(Math.random()*256)
